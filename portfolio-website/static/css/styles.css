@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap');
+
+:root {
+    --light-blue: #BBE1FA;
+    --sky-blue: #3282B8;
+    --dark-blue: #0F4C75;
+    --blackish: #1B262C
+}
+
+body {
+    background-color: var(--light-blue);
+}
+
+.border-right-navbar {
+    border-right: 6px solid var(--sky-blue) !important;
+}
+
+.light-blue {
+    color: var(--light-blue) !important;
+}
+
+.sky-blue {
+    color: var(--sky-blue) !important;
+}
+
+.dark-blue {
+    color: var(--dark-blue) !important;
+}
+
+.blackish {
+    color: var(--blackish) !important;
+}
+
+.image-header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-left: 0%;
+    bottom: 0%;
+}
+
+.card-custom img {
+    height: 70%;
+    width: 70%;
+    margin-top: 10%
+}
+
+.navbar-custom {
+    background-color: var(--dark-blue)
+}
+
+.font-cursive {
+    font-family: 'Pacifico', cursive;
+    font-size: 31px;
+    color: white
+}
+
+.font-sans {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.big {
+    font-size: 31px;
+}
+
+.bigger {
+    font-size: 60px
+}
+
+.biggest {
+    font-size: 100px;
+}
+
+.white {
+    color: white
+}
+
+.main-page-text {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.border-sky-blue {
+    border: var(--dark-blue) solid 3px;
+}
+
+footer {
+    margin-bottom: 0px !important;
+}
